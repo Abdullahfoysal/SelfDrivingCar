@@ -41,18 +41,24 @@ Behavioral cloning for autonomous cars, as it enables the vehicle to accurately 
 <ul>
   <li>Train ML model from driving experience data (Collected through keyboard/joystick)</code></li>
   <li>Load ML model on raspberry pi</li>
+  <li>Image Processing from camera </li>
   <li>Predict Decision from Model for moving (left,right,stop,speed) and control the motor</li>
 </ul>
 
 <h3>🧠 ML Model Overview</h3>
 <p>The ML model used here is a convolutional neural network (CNN) that takes image frames as input, extracts features, and predicts lane positions. It includes:</p>
 <ul>
+  <li>CNN (Nvidia)  Model provided by audacity</li>
   <li>Input Image (320 x 240 px)</li>
   <li>Convolutional Layers with ReLU and Max Pooling</li>
   <li>Fully Connected Network for final prediction</li>
 </ul>
-This features includes :
-Image Processing 
-CNN (Nvidia)  Model provided by audacity
+<h3>🚀 Other Features</h2>
+<ul>
+  <li>Road sign detection</li>
+</ul>
+
+## Working repo: https://github.com/Abdullahfoysal/robotic-car
+
 
 
