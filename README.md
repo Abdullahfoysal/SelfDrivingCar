@@ -1,7 +1,10 @@
-## Working Repository: https://github.com/Abdullahfoysal/robotic-car
+## Self Driving Car | Behavioural Cloning | Autonomous car
+<p><b>Behavioral cloning for autonomous cars involves training a machine learning model to mimic the behavior of a human driver, using data collected from that driver's real-world driving experiences.</b></p>
 
-<h1>Lane Detection Implementation - Step 1</h1>
-<p>Behavioral cloning for autonomous cars involves training a machine learning model to mimic the behavior of a human driver, using data collected from that driver's real-world driving experiences.</p>
+<p align="center">
+<img src="project-demo-images/image1.png" alt="Lane Detection Hardware Setup" width="300" height="300" />
+</p>
+
 <h2>🚀 Hardware Setup</h2>
 
 <h3>🔧 Components Used</h3>
@@ -26,6 +29,21 @@
 <img src="project-demo-images/image2.png" alt="Lane Detection Hardware Setup" width="400" />
 </p>
 
+
+<hr>
+<h2>🚀 Software Setup</h2>
+<p>Lane Detection
+Behavioral cloning for autonomous cars, as it enables the vehicle to accurately track the lanes on the road and adjust its behavior accordingly.</p>
+<p align="center">
+<img src="project-demo-images/image3.png" alt="Lane Detection Hardware Setup" width="400" />
+</p>
+
+<ul>
+  <li>Train ML model from driving experience data (Collected through keyboard/joystick)</code></li>
+  <li>Load ML model on raspberry pi</li>
+  <li>Predict Decision from Model for moving (left,right,stop,speed) and control the motor</li>
+</ul>
+
 <h3>🧠 ML Model Overview</h3>
 <p>The ML model used here is a convolutional neural network (CNN) that takes image frames as input, extracts features, and predicts lane positions. It includes:</p>
 <ul>
@@ -33,15 +51,8 @@
   <li>Convolutional Layers with ReLU and Max Pooling</li>
   <li>Fully Connected Network for final prediction</li>
 </ul>
+This features includes :
+Image Processing 
+CNN (Nvidia)  Model provided by audacity
 
-<h3>📌 Notes</h3>
-<ul>
-  <li>Ensure your Pi Camera is enabled via <code>raspi-config</code></li>
-  <li>Use proper heat sinks for Raspberry Pi if running continuously</li>
-  <li>Test GPIO pin logic before connecting to the motor controller</li>
-</ul>
-
-<hr>
-
-<p>📁 For next steps, refer to <strong>Step 2: Lane Detection using Camera Feed</strong></p>
 
