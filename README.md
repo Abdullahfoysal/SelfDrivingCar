@@ -1,10 +1,8 @@
 ## Working Repository: https://github.com/Abdullahfoysal/robotic-car
 
 <h1>Lane Detection Implementation - Step 1</h1>
-
+<p>Behavioral cloning for autonomous cars involves training a machine learning model to mimic the behavior of a human driver, using data collected from that driver's real-world driving experiences.</p>
 <h2>🚀 Hardware Setup</h2>
-
-<p>This step outlines the essential hardware and initial configuration for implementing lane detection using Raspberry Pi and related components.</p>
 
 <h3>🔧 Components Used</h3>
 <ul>
@@ -19,13 +17,14 @@
   <li>Managing hardware parts and Raspberry Pi GPIO initialization</li>
   <li>Motor controller connection and configuration</li>
   <li>Setting up and accessing the Pi Camera</li>
-  <li>Loading the Machine Learning model for lane prediction</li>
+  <li>Load ML model </li>
 </ul>
 
 <h3>📷 Circuit Diagram</h3>
 <p>The following diagram shows the complete connection between Raspberry Pi, motor controller, power supply, and camera:</p>
-
-<img src="595c816a-af82-4ed4-a7e7-761652b1282d.png" alt="Lane Detection Hardware Setup" width="600" />
+<p align="center">
+<img src="project-demo-images/image2.png" alt="Lane Detection Hardware Setup" width="400" />
+</p>
 
 <h3>🧠 ML Model Overview</h3>
 <p>The ML model used here is a convolutional neural network (CNN) that takes image frames as input, extracts features, and predicts lane positions. It includes:</p>
