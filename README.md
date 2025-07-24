@@ -42,7 +42,7 @@ Behavioral cloning for autonomous cars, as it enables the vehicle to accurately 
   <li>Train ML model from driving experience data (Collected through keyboard/joystick)</code></li>
   <li>Load ML model on raspberry pi</li>
   <li>Image Processing from camera </li>
-  <li>Predict Decision from Model for moving (left,right,stop,speed) and control the motor</li>
+  <li>Predict Decision from Model for moving motor ('center','left','right','steering','throttle','reverse','speed')</li>
 </ul>
 
 <h3>🧠 ML Model Overview</h3>
@@ -52,6 +52,7 @@ Behavioral cloning for autonomous cars, as it enables the vehicle to accurately 
   <li>Input Image (320 x 240 px)</li>
   <li>Convolutional Layers with ReLU and Max Pooling</li>
   <li>Fully Connected Network for final prediction</li>
+  <li> CNN ML Model Training Colab: https://github.com/Abdullahfoysal/SelfDrivingCar/blob/master/Behavioural_Cloning.ipynb</li>
 </ul>
 <h3>🚀 Other Features</h2>
 <ul>
